@@ -31,7 +31,7 @@ document.getElementById("createTemplateBtn").onclick = function () {
     document.getElementById("displayDices").innerHTML = `{${results}}`;
     console.log(`{${results}}`);
   };
-  //função that sums de results of the dices
+  //function that sums de results of the dices
   function sum(...list) {
     let i = 0;
     for (let item of list) {
