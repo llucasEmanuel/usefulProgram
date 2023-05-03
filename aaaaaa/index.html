@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Dice Template Maker</title>
+  </head>
+  <body>
+    <label>Number of sides:</label>
+    <input type="number" min="1" id="diceSides" /> <br /><br />
+
+    <label>Number of dices:</label>
+    <input type="number" min="0" id="diceNumber" /> <br /><br />
+
+    <label>Modifier:</label>
+    <input type="number" id="diceModifier" /> <br /><br />
+
+    <label>Template name:</label>
+    <input type="text" id="templateName" /> <br /><br />
+
+    <button id="createTemplateBtn">Create a new template</button>
+    <hr />
+
+    <p id="displaySum"></p>
+    <p id="displayDices"></p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
